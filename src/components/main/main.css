@@ -1,0 +1,45 @@
+div.container{
+    width: 70vw;
+    margin: 0 auto;
+    
+    
+    
+}
+div.taskAndDeletebutton{
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: #555555;
+    
+}
+
+div.taskList{
+    display: flex;
+    flex:90 90 0px;
+    margin: 0 40px 0 0;
+}
+button.delete{
+    margin-right: 30px;
+    height: 30px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: all 0.1s;
+    
+}
+div.task{
+    flex:90 90 0px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+div.days{
+    flex:10 10 0px;
+    font-size: 20px;
+    padding-right: 70px;
+    text-align: right;
+}
+button.delete:hover{
+    background-color: #db0909;
+    
+}

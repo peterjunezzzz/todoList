@@ -1,0 +1,65 @@
+body{
+    background-color: #bbbbbb;
+}
+.header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 15vh;
+    margin:0 auto 50px;
+}
+.input{
+    display: flex;
+    flex:90 90 0px;
+    margin: 0 40px 0 0;
+    height: 8vh;
+    
+}
+#task{
+    outline: none;
+    border:none;
+    width: 0px;
+    padding: 0px;
+    flex:90 90 0px;
+    border-radius:18px 0px 0px 18px;
+    background-color:#090303e9;
+    padding-left: 20px;
+    color: aliceblue;
+    font-size: 20px;
+
+}
+#days{
+    outline: none;
+    border:none;
+    width: 0px;
+    padding: 0px;
+    flex:10 10 0px;
+    border-radius:0px 18px 18px 0px;
+    background-color: #090303e9;
+    color: aliceblue;
+    font-size: 20px;
+    padding-right: 10px;
+}
+div>button.submit{
+    outline: none;
+    border:none;
+    width: 0px;
+    height: 8vh;
+    padding: 0px;
+    flex:10 10 0px;
+    background-color: #0559eb;
+    color: #090303e9;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.1s;
+
+}
+button.submit:hover{
+    background-color: #1768c5;
+}
+
+button:active{
+    opacity: 0.6;
+}   
